@@ -1,0 +1,60 @@
+{
+	"name" : "MunSUS SUS AMIG!!!!",
+	"starSystem" : "Jammer.IThinkI-Who?",
+	"Base" :
+	{
+		"surfaceGravity" : 7,
+		"surfaceSize" : 120,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 110,
+			"g" : 90,
+			"b" : 60,
+			"a" : 255
+		}
+	},
+	"Atmosphere" :
+	{
+		"size" : 150,
+		"fogTint" : 
+		{
+			"r" : 219,
+			"g" : 246,
+			"b" : 255,
+			"a" : 255
+		},
+		"fogDensity": 0.5,
+		"fogSize": 150,
+		"hasrain" : true,
+		"hasAtmosphere" : true,
+		"atmosphereTint" : 
+		{
+			"r" : 219,
+			"g" : 246,
+			"b" : 255,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1000,
+		"inclination" : 10,
+		"primaryBody" : "ksp refrence [im lazy so i coped plane]]",
+		"isMoon" : true,
+		"isTidallyLocked" : false,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0.5,
+		"argumentOfPeriapsis": 0,
+		"axialTilt" : 0,
+		"siderealPeriod" : 12
+	},	
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/Munes.png",	
+		"textureMap" : "planets/assets/Munis.png",	
+		"minHeight" : 110,
+		"maxHeight" : 130,
+	}
+}

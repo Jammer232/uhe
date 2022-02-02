@@ -1,0 +1,80 @@
+{
+	"name" : "ashes uwu",
+	"starSystem" : "Jammer.IThinkI-Who?",
+	"Spawn" : 
+	{
+		"playerSpawnPoint" :
+		{
+			"x" : 224.3,
+			"y" : -28.2,
+			"z" : -128.5,
+		},
+		"shipSpawnPoint" :
+		{
+			"x" : 221.9,
+			"y" : -33.1,
+			"z" : -141.8,
+		},
+		"startwithSuit" : true
+	},
+	"Base" :
+	{
+		"surfaceGravity" : 8,
+		"surfaceSize" : 170,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true,
+		"gravityFallOff" : "inverseSquared",
+	},
+	"Sand" : {
+		"size" : 175,
+		"tint":
+		{
+			"r" : 204,
+			"g" : 168,
+			"b" : 116,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 500,
+		"inclination" : 0,
+		"primaryBody" : "foc poin",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 48,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 29,
+		"axialTilt" : 0,
+		"trueAnomaly" : 174,
+		"siderealPeriod" : 5
+	},
+	"Atmosphere" :
+	{
+		"hasOxygen" : false,
+		"hasAtmosphere" : true,
+		"size" : 826,
+		"fogTint" : 
+		{
+			"r" : 255,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		},
+		"atmosphereTint" : 
+		{
+			"r" : 255,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		},
+		"fogDensity": 10,
+		"fogSize": 826
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/As_twFA.png",	
+		"textureMap" : "planets/assets/Ashes_Twin_texturemap.jpg",	
+		"minHeight" : 20,
+		"maxHeight" : 180,
+	}
+}

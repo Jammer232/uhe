@@ -1,0 +1,61 @@
+{
+	"name" : "ksp refrence [im lazy so i coped plane]]",
+	"starSystem" : "Jammer.IThinkI-Who?",
+	"Base" :
+	{
+		"surfaceGravity" : 12,
+		"surfaceSize" : 250,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 0,
+			"g" : 0,
+			"b" : 255,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 10000,
+		"inclination" : 0,
+		"primaryBody" : "im bor",
+		"isMoon" : false,
+		"isTidallyLocked" : false,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+		"axialTilt" : 0,
+		"siderealPeriod" : 3
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/Ker.png",	
+		"textureMap" : "planets/assets/kerb.png",	
+		"minHeight" : 230,
+		"maxHeight" : 370,
+	},
+	"Atmosphere" :
+	{
+		"hasOxygen" : false,
+		"hasAtmosphere" : true,
+		"size" : 255,
+		"fogTint" : 
+		{
+			"r" : 187,
+			"g" : 154,
+			"b" : 78,
+			"a" : 255
+		},
+		"atmosphereTint" : 
+		{
+			"r" : 187,
+			"g" : 154,
+			"b" : 78,
+			"a" : 255
+		},
+		"fogDensity": 0.2,
+		"fogSize": 255,
+	}
+}
